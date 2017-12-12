@@ -11,6 +11,8 @@ body {
 
 iframe {
   width: 100%;
+  max-width: 400px;
+  object-position: left;
 }
 
 a {
@@ -25,6 +27,9 @@ a {
   border-top-right-radius: 5px;
   padding: 10px;
   box-shadow: 2px 2px 2px gray;
+  border-top: 2px black solid;
+  border-left: 2px black solid;
+  border-right: 2px black solid;
 }
 
 .subTitle {
@@ -36,93 +41,77 @@ a {
   padding: 10px;
   background-color: #a82b2b;
   box-shadow: 2px 2px 2px gray;
+  border-bottom: 2px black solid;
+  border-left: 2px black solid;
+  border-right: 2px black solid;
+}
+
+[class*="Header"] {
+  font-size: 1.5em;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 2px 2px 2px gray;
+  border: 2px black solid;
+}
+
+[class*="Text"] {
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 2px 2px 2px gray;
+  border: 2px black solid;
+}
+
+.devotionalHeader {
+  background-color: white;
+}
+
+.devotionalText {
+  background-color: white;
 }
 
 .overviewHeader {
-  font-size: 1.25em;
-  border-radius: 5px;
   background-color: #3f00e0;
-  padding: 10px;
   color: white;
-  box-shadow: 2px 2px 2px gray;
 }
 
 .overviewText {
-  border-radius: 5px;
   background-color: #3f00e0;
-  padding: 10px;
   color: white;
-  box-shadow: 2px 2px 2px gray;
-}
-
-.overviewVideo {
-  border-radius: 5px;
-  background-color: #3f00e0;
-  padding: 10px;
-  box-shadow: 2px 2px 2px gray;
 }
 
 .outcomeHeader {
-  font-size: 1.25em;
-  border-radius: 5px;
   background-color: #fff482;
-  padding: 10px;
-  box-shadow: 2px 2px 2px gray;
 }
 
 .outcomeText {
-  border-radius: 5px;
   background-color: #fff482;
-  padding: 10px;
-  box-shadow: 2px 2px 2px gray;
 }
 
 .resourcesHeader {
-  font-size: 1.25em;
-  border-radius: 5px;
   background-color: #0a27ff;
-  padding: 10px;
-  box-shadow: 2px 2px 2px gray;
   color: white;
 }
 
 .resourcesText {
-  border-radius: 5px;
   background-color: #0a27ff;
-  padding: 10px;
-  box-shadow: 2px 2px 2px gray;
   color: white;
 }
 
 .learningHeader {
-  font-size: 1.25em;
-  border-radius: 5px;
   background-color: #62e04c;
-  padding: 10px;
-  box-shadow: 2px 2px 2px gray;
 }
 
 .learningText {
-  border-radius: 5px;
   background-color: #62e04c;
-  padding: 10px;
-  box-shadow: 2px 2px 2px gray;
 }
 
 .activitiesHeader {
-  font-size: 1.25em;
-  border-radius: 5px;
-  background-color: gray;
-  padding: 10px;
-  box-shadow: 2px 2px 2px gray;
+  background-color: #606060;
   color: white;
 }
 
 .activitiesText {
-  border-radius: 5px;
-  background-color: gray;
-  padding: 10px;
-  box-shadow: 2px 2px 2px gray;
+  background-color: #606060;
   color: white;
 }
 
@@ -164,15 +153,15 @@ a {
        .col-12 {width: 100%;}
 
        .desktopMargin {
-         margin-left: 8.33%;
-         margin-right: 8.33%;
+         margin-left: 16.66%;
+         margin-right: 16.66%;
        }
 
        .desktopMarginLeft {
-         margin-left: 8.33%;
+         margin-left: 16.66%;
        }
        .desktopMarginRight{
-         margin-right: 8.33%;
+         margin-right: 16.66%;
        }
 
 }
